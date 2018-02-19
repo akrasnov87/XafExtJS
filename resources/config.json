@@ -1,0 +1,10 @@
+/// readme: использовать формат = параметр: описание;
+{
+    "REMOTING_ADDRESS": "demo.it-serv.ru/mobileservicedev", /// REMOTING_ADDRESS: часть строки подключения к серверу;
+    "RPC.REMOTING_API": "http://{0}/rpc/meta",
+    "RPC_URL": "http://{0}/rpc",
+    "REMOTE_DATA_URL": "http://{0}/content/app",
+    "REMOTE_NAMESPACE": "PN",
+    "theme": "test", /// reference: наименование родительской настройки (связанной);
+    "port": 3000 /// port: номер порта под которым запускается приложение (ели приложение установлено на iis, то указанный порт не учитывается);
+}

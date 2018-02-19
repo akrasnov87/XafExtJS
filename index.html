@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html manifest="">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Диспетчер - Мобильные сервисы</title>
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="19d9493e-46b4-4b05-844b-67b6230f5760" type="text/javascript" src="bootstrap.js"></script>
+    <script>
+        // адрес для отправки сообщений об ошибках
+        var errorUrl = 'http://support.chuvashia.com/Utilits/Error/Items/1';
+        var feedbackUrl = 'http://support.chuvashia.com/Utilits/Error/feedback/1';
+    </script>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body style="background-color:white;color:black" id="body1">
+    <!-- для вывода информации о загрузке -->
+    <div style="height:100%;" id="bootloader">
+        <div style="display:table;height:100%;width:100%">
+            <div style="display:table-row">
+                <div style="display:table-cell">
+                    <div id="loader" style="padding:10px">Загрузка...</div>
+                </div>
+            </div>
+            <div style="display:table-row">
+                <div style="display:table-cell;vertical-align:middle;height:100%;">
+                    <div style="text-align:center">
+                        <img src="data:image/png;base64,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"
+                            title="" />
+                    </div>
+                    <div style="text-align:center">
+                        Диспетчер - Мобильные сервисы
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

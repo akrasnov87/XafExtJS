@@ -1,0 +1,13 @@
+{
+    "name": "arm",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies": {
+        "iserv_package": "git+https://iservgroup@bitbucket.org/ismobileservice/iserv_package.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "IServ",
+    "license": "ISC"
+}

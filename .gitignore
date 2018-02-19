@@ -1,0 +1,8 @@
+/build
+/ext
+/node_modules
+sencha-error-*
+bootstrap.*
+classic.json*
+modern.json*
+.sencha
